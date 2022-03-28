@@ -3,7 +3,6 @@
 if [[ -f ~/.vimrc ]]; then
     mv ~/.vimrc ~/.vimrc.bk
 fi
-cp vimrc.template ~/.vimrc
 
 mkdir -p ~/.vim/ftplugin
 mkdir -p ~/.vim/autoload
@@ -15,4 +14,5 @@ if [[ ! -f ~/.vim/autoload/plug.vim ]]; then
         https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 fi
 
-vim -c "PlugInstall" -c "q" -c "q"
+vim -c "execute 'silent !cp vimrc.template ~/.vimrc'" -c \
+    "execute 'source ~/.vimrc'" -c "PlugInstall" -c "q" -c "q"
