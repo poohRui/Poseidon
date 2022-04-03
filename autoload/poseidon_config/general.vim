@@ -4,6 +4,7 @@ function poseidon_config#general#init()
     set hidden            " Allow buffer swap without save
     set cursorline        " Highlight current line
     set relativenumber    " Show relative line number
+    set noshowmode        " Do not display extra mode below
 
     let g:mapleader=" "
     noremap <Leader>r :source ~/.vimrc<CR>
