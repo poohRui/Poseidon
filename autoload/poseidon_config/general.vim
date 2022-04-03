@@ -12,12 +12,6 @@ function poseidon_config#general#init()
     noremap <Leader>p :bp<CR>
     noremap <Leader>n :bn<CR>
     noremap <Leader>d :bd<CR>
-    noremap <C-J> <C-W><C-J>
-    noremap <C-K> <C-W><C-K>
-    noremap <C-H> <C-W><C-H>
-    noremap <C-L> <C-W><C-L>
-    noremap <Leader>v :vsp<CR>
-    nnoremap <silent> <C-M> :nohlsearch<C-R>=has('diff')?'<Bar>diffupdate':''<CR><CR><C-M>
 
     " Change the shape of cursor
     " Reference [stackoverflow](https://stackoverflow.com/questions/6488683/how-to-change-the-cursor-between-normal-and-insert-modes-in-vim)
