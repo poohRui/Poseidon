@@ -26,10 +26,8 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Deploy poseidon and test
-        env:
-          ENV: ${{ matrix.vim }}
         run: |
           export DEPS=~/deps
           export PATH=~/deps/bin:$PATH
           sudo apt-get install vim
-          bash deploy.sh
+          bash deploy.sh > /dev/null
