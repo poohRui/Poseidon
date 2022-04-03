@@ -31,3 +31,4 @@ jobs:
           export PATH=~/deps/bin:$PATH
           sudo apt-get install vim
           bash deploy.sh > /dev/null
+          vim -c "q"
