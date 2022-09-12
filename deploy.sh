@@ -4,8 +4,8 @@ if [[ -f ~/.vimrc ]]; then
     mv ~/.vimrc ~/.vimrc.bk
 fi
 
-mkdir -p ~/.vim/ftplugin
-mkdir -p ~/.vim/autoload
+rm -r ~/.vim/{autoload,ftplugin}
+mkdir -p ~/.vim/{ftplugin,autoload}
 cp -r ftplugin/* ~/.vim/ftplugin
 cp -r autoload/* ~/.vim/autoload
 
@@ -16,3 +16,4 @@ fi
 
 vim -c "execute 'silent !cp vimrc.template ~/.vimrc'" -c \
     "execute 'source ~/.vimrc'" -c "PlugInstall" -c "q" -c "q"
+#cd ~/.vim/plugged/YouCompleteMe && python3 install.py  --clangd-completer --force-sudo
