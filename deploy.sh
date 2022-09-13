@@ -16,4 +16,4 @@ fi
 
 vim -c "execute 'silent !cp vimrc.template ~/.vimrc'" -c \
     "execute 'source ~/.vimrc'" -c "PlugInstall" -c "q" -c "q"
-#cd ~/.vim/plugged/YouCompleteMe && python3 install.py  --clangd-completer --force-sudo
+cd ~/.vim/plugged/YouCompleteMe && python3 install.py  --clangd-completer --force-sudo
