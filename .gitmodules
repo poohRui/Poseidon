@@ -16,9 +16,9 @@
 [submodule "pack/buffer/start/LeaderF"]
 	path = pack/buffer/start/LeaderF
 	url = https://github.com/Yggdroot/LeaderF.git
-[submodule "pack/syntax/opt/YouCompleteMe"]
-	path = pack/syntax/opt/YouCompleteMe
-	url = https://github.com/ycm-core/YouCompleteMe.git
 [submodule "pack/dressup/start/vim-cpp-modern"]
 	path = pack/dressup/start/vim-cpp-modern
 	url = https://github.com/bfrg/vim-cpp-modern
+[submodule "pack/syntax/start/YouCompleteMe"]
+	path = pack/syntax/start/YouCompleteMe
+	url = https://github.com/ycm-core/YouCompleteMe.git
