@@ -1,0 +1,24 @@
+[submodule "pack/basic/start/vim-sensible"]
+	path = pack/basic/start/vim-sensible
+	url = https://github.com/tpope/vim-sensible.git
+[submodule "pack/themes/opt/solarized8"]
+	path = pack/themes/opt/solarized8
+	url = https://github.com/lifepillar/vim-solarized8.git
+[submodule "pack/dressup/start/vim-airline"]
+	path = pack/dressup/start/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
+[submodule "pack/dressup/start/vim-airline-themes"]
+	path = pack/dressup/start/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes.git
+[submodule "pack/dressup/start/vim-devicons"]
+	path = pack/dressup/start/vim-devicons
+	url = https://github.com/ryanoasis/vim-devicons.git
+[submodule "pack/buffer/start/LeaderF"]
+	path = pack/buffer/start/LeaderF
+	url = https://github.com/Yggdroot/LeaderF.git
+[submodule "pack/syntax/opt/YouCompleteMe"]
+	path = pack/syntax/opt/YouCompleteMe
+	url = https://github.com/ycm-core/YouCompleteMe.git
+[submodule "pack/dressup/start/vim-cpp-modern"]
+	path = pack/dressup/start/vim-cpp-modern
+	url = https://github.com/bfrg/vim-cpp-modern
